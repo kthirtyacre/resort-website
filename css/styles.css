@@ -1,0 +1,42 @@
+h1 {
+  color: red;
+  text-align: center;
+}
+
+h2 {
+  justify-content: left;
+  text-align: left;
+  font-weight: 100;
+}
+
+h3 {
+  justify-content: left;
+  text-align: left;
+  font-weight: 100;
+
+p {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+ul {
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+
+#background {
+  background: url("img/beach-home.jpg") no-repeat 50% 50% fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+}
+  text-align: center;
+  justify-content: center;
+}
+
+img source {
+  justify-content: center;
+  text-align: center;
+}
