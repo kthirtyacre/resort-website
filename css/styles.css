@@ -1,22 +1,27 @@
 h1 {
-  color: red;
+  color: white;
   text-align: center;
+  font: 45px serif;
+  font-weight: bold;
+
 }
 
 h2 {
   justify-content: left;
   text-align: left;
-  font-weight: 100;
+  font-weight: 100, bold;
 }
 
 h3 {
   justify-content: left;
   text-align: left;
   font-weight: 100;
-
+}
 p {
   font-family: sans-serif;
   text-align: center;
+  line-height: 30px;
+  color: white;
 }
 
 ul {
@@ -25,18 +30,20 @@ ul {
   text-align: center;
 }
 
-#background {
-  background: url("img/beach-home.jpg") no-repeat 50% 50% fixed;
-  background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  -webkit-background-size: cover;
-}
-  text-align: center;
-  justify-content: center;
-}
-
 img source {
   justify-content: center;
   text-align: center;
+}
+
+html, body{
+  height: 100%;
+}
+body {
+			background-image: url("https://islandsofpuertorico.com/images/best-isla-verde-hotels-on-the-beach-puerto-rico-1.jpg") ;
+			background-position: center center;
+			background-repeat:  no-repeat;
+			background-attachment: fixed;
+			background-size:  cover;
+			background-color: #999;
+
 }
